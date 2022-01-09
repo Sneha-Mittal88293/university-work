@@ -1,0 +1,8 @@
+P = int(input("enter the value of principle amount : "))
+R = float(input("enter the rate of interest: "))
+T =int(input("enter the time periods in years : "))
+N = int(input("enter the no. of time interest in compount in t: "))
+SI = ((P*R*T)/100)
+CI = (P*(1+((R/100)/N))**(N*T))
+print(f"simple interest = {round(SI,2)}")
+print("compound interest = {}".format(CI))
