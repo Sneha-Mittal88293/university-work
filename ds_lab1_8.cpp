@@ -5,7 +5,6 @@ void search(char string[] , char word[])
     int m , n ,i ,found,j;
     m = strlen(string);
     n = strlen(word);
-
     for(i=0;i<m-n;i++)
     {
         found = 1;
